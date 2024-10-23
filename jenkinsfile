@@ -6,7 +6,7 @@ pipeline {
     }
 
     tools {
-        nodejs "nodejs18" // Cambia aquí según el nombre correcto en Jenkins
+        nodejs "nodejs18" // Cambia 1 aquí según el nombre correcto en Jenkins
     }
 
     triggers {
