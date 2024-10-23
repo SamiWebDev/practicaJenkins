@@ -5,10 +5,6 @@ pipeline {
         FLY_API_TOKEN = credentials('FLY_API_TOKEN_TEST')
     }
 
-    tools {
-        nodejs "nodejs18" // Cambia 1 aquí según el nombre correcto en Jenkins
-    }
-
     triggers {
         githubPush()
     }
